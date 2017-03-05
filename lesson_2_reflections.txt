@@ -5,3 +5,25 @@ it creates a git repositiry to an existing or a new directory. it would help tra
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 staging area has files to be commited. it offers flexibility to commit realted files only and keep other files unaffected.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+i can add file/files related to one logical change, and commit those changes only.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+branches would add a duplicate version of current branch which could be modified independently. its helpful while making experimental or uncertain changes.
+
+How do the diagrams help you visualize the branch structure?
+
+it helps to view branches and their parent branch, which would ake it easy to spot difference in various commits.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+merging of two branches intigrated changes of both the branches into one branch. the diagram helps understand the various commits made since the splitting of branches.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic merge may create an overlap/missing out of the data. mergng manually will be a very tedious job. prefer automatic merge .
+
+
